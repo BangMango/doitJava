@@ -30,8 +30,8 @@ public class Q15 {
 		}
 	}
 	public static void triangleRB(int n) {
-		for(int i=1;i<n;i++) {
-			for(int j=n-1;j>=0;j--) {
+		for(int i=1;i<=n;i++) {
+			for(int j=n;j>=1;j--) {
 				if(i<j) {
 					System.out.print(" ");
 				}else {
@@ -47,7 +47,6 @@ public class Q15 {
 		triangleLU(5);
 		triangleRU(5);
 		triangleRB(5);
-
 	}
 
 }
