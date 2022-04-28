@@ -5,6 +5,7 @@ public class Clone {
 	public static void main(String[] args) {
 		//Clone method : 배열복사
 		int[] a= {1,2,3,4,5};
+		// 변수 b는 a 값을 그대로 대입한다.
 		int[] b=a.clone();
 		
 		b[3]=0;
