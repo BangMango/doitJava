@@ -22,7 +22,7 @@ public class ArrayMax {
 			}
 		}
 		System.out.println("배열 최대 값은 "+max+"입니다.");
-
+		sc.close();
 	}
 
 }
