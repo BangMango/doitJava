@@ -19,7 +19,7 @@ public class Q17 {
 	}
 
 	public static void main(String[] args) {
-		spiraNum(5);
+		spiraNum(9);
 	}
 
 }

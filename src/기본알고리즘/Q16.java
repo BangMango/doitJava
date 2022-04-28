@@ -17,7 +17,7 @@ public class Q16 {
 	}
 
 	public static void main(String[] args) {
-		spira(6);
+		spira(12);
 
 	}
 
