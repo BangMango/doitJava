@@ -3,7 +3,7 @@ package 기본자료구조;
 import java.util.Scanner;
 //입력받은 10진수를 2진수~36진수로 기수변환
 public class CardConvRev {
-	//정수값 x를 r진수로 변환하여 배열 dㅇ 아랫자리부터 넣어두고 자릿수 반환
+	//정수값 x를 r진수로 변환하여 배열 d 아랫자리부터 넣어두고 자릿수 반환
 	static int cardConvR(int x,int r, char[] d) {
 		int digits=0;//변환수 자릿수
 		String dchar="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -34,7 +34,7 @@ public class CardConvRev {
 				cd=sc.nextInt();
 			}while(cd<2||cd>36);
 			dno=cardConvR(no, cd, cno);
-			System.out.println(cd+"진수로 :");
+			System.out.print(cd+"진수로 :");
 			for(int i=dno-1;i>=0;i--) {
 				System.out.print(cno[i]);;
 			}
@@ -49,5 +49,6 @@ public class CardConvRev {
 				retry=sc.nextInt();
 			}
 		}while(retry==1);
+		sc.close();
 	}
 }
